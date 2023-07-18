@@ -15,7 +15,7 @@ C:/FarLandProject/FarLandProject
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-60944
+61532
 Successfully changed project path to: C:/FarLandProject/FarLandProject
 C:/FarLandProject/FarLandProject
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -49,11 +49,11 @@ C:/FarLandProject/FarLandProject
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [12800] Host "[IP] 192.168.0.177 [Port] 0 [Flags] 2 [Guid] 2184141718 [EditorId] 2184141718 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-3RJIU47) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [14736] Host "[IP] 192.168.0.177 [Port] 0 [Flags] 2 [Guid] 3377639421 [EditorId] 3377639421 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-3RJIU47) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [12800] Host "[IP] 192.168.0.177 [Port] 0 [Flags] 2 [Guid] 2184141718 [EditorId] 2184141718 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-3RJIU47) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [14736] Host "[IP] 192.168.0.177 [Port] 0 [Flags] 2 [Guid] 3377639421 [EditorId] 3377639421 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-3RJIU47) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
-Refreshing native plugins compatible for Editor in 4.71 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 4.05 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.1f1 (f18e0c1b5784)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.1f1/Editor/Data/Resources/UnitySubsystems
@@ -69,48 +69,48 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.1f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.1f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56504
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56028
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.1f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.1f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.005718 seconds.
-- Loaded All Assemblies, in  0.272 seconds
+Registered in 0.003958 seconds.
+- Loaded All Assemblies, in  0.209 seconds
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 164 ms
+Android Extension - Scanning For ADB Devices 151 ms
 Native extension for WebGL target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.400 seconds
-Domain Reload Profiling: 671ms
-	BeginReloadAssembly (71ms)
+- Finished resetting the current domain, in  0.358 seconds
+Domain Reload Profiling: 567ms
+	BeginReloadAssembly (51ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (0ms)
-	RebuildCommonClasses (27ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (21ms)
 	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (46ms)
-	LoadAllAssembliesAndSetupDomain (119ms)
-		LoadAssemblies (71ms)
+	initialDomainReloadingComplete (37ms)
+	LoadAllAssembliesAndSetupDomain (92ms)
+		LoadAssemblies (50ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (115ms)
-			TypeCache.Refresh (114ms)
-				TypeCache.ScanAssembly (105ms)
+		AnalyzeDomain (89ms)
+			TypeCache.Refresh (88ms)
+				TypeCache.ScanAssembly (81ms)
 			ScanForSourceGeneratedMonoScriptInfo (0ms)
 			ResolveRequiredComponents (0ms)
-	FinalizeReload (400ms)
+	FinalizeReload (359ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (354ms)
+		SetupLoadedEditorAssemblies (319ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (258ms)
+			InitializePlatformSupportModulesInManaged (226ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
 			BeforeProcessingInitializeOnLoad (1ms)
-			ProcessInitializeOnLoadAttributes (63ms)
+			ProcessInitializeOnLoadAttributes (60ms)
 			ProcessInitializeOnLoadMethodAttributes (29ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
@@ -120,7 +120,7 @@ Domain Reload Profiling: 671ms
 Worker process is ready to serve import requests
 Begin MonoManager ReloadAssembly
 - Loaded All Assemblies, in  0.417 seconds
-Refreshing native plugins compatible for Editor in 2.26 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.57 ms, found 3 plugins.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
 Native extension for WebGL target not found
@@ -132,47 +132,47 @@ Package Manager log level set to [2]
 [Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
 [Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
 [Package Manager] Cannot connect to Unity Package Manager local server
-- Finished resetting the current domain, in  0.338 seconds
-Domain Reload Profiling: 754ms
-	BeginReloadAssembly (80ms)
+- Finished resetting the current domain, in  0.323 seconds
+Domain Reload Profiling: 739ms
+	BeginReloadAssembly (79ms)
 		ExecutionOrderSort (0ms)
-		DisableScriptedObjects (4ms)
+		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
 		CreateAndSetChildDomain (15ms)
-	RebuildCommonClasses (21ms)
+	RebuildCommonClasses (20ms)
 	RebuildNativeTypeToScriptingClass (7ms)
-	initialDomainReloadingComplete (28ms)
-	LoadAllAssembliesAndSetupDomain (282ms)
-		LoadAssemblies (156ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (284ms)
+		LoadAssemblies (155ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (161ms)
-			TypeCache.Refresh (149ms)
-				TypeCache.ScanAssembly (140ms)
-			ScanForSourceGeneratedMonoScriptInfo (10ms)
+		AnalyzeDomain (166ms)
+			TypeCache.Refresh (153ms)
+				TypeCache.ScanAssembly (144ms)
+			ScanForSourceGeneratedMonoScriptInfo (11ms)
 			ResolveRequiredComponents (2ms)
-	FinalizeReload (338ms)
+	FinalizeReload (323ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (238ms)
+		SetupLoadedEditorAssemblies (222ms)
 			LogAssemblyErrors (0ms)
 			InitializePlatformSupportModulesInManaged (15ms)
 			SetLoadedEditorAssemblies (3ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (36ms)
-			ProcessInitializeOnLoadAttributes (168ms)
+			BeforeProcessingInitializeOnLoad (39ms)
+			ProcessInitializeOnLoadAttributes (149ms)
 			ProcessInitializeOnLoadMethodAttributes (13ms)
 			AfterProcessingInitializeOnLoad (3ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (4ms)
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 3.13 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 3.63 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3173 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 45 unused Assets / (63.5 KB). Loaded Objects now: 3640.
-Memory consumption went from 132.8 MB to 132.7 MB.
-Total: 2.424000 ms (FindLiveObjects: 0.240400 ms CreateObjectMapping: 0.093200 ms MarkObjects: 1.996900 ms  DeleteObjects: 0.092400 ms)
+Unloading 3174 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 45 unused Assets / (64.0 KB). Loaded Objects now: 3641.
+Memory consumption went from 133.8 MB to 133.8 MB.
+Total: 3.035700 ms (FindLiveObjects: 0.239600 ms CreateObjectMapping: 0.134100 ms MarkObjects: 2.560500 ms  DeleteObjects: 0.100500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -186,3 +186,104 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1730902.427837 seconds.
+  path: Assets/Game/Levels/LandTextures
+  artifactKey: Guid(4ff9a0b5ca255f4449eb6a44b0825162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Levels/LandTextures using Guid(4ff9a0b5ca255f4449eb6a44b0825162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '452a0acd7bc88a903f6ef2f97fde8c77') in 0.002720 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 11.177309 seconds.
+  path: Assets/Game/Levels/LandTextures/PolygonNatureBiomes/PNB_Core/Textures/Noise_Big.tga
+  artifactKey: Guid(796e3706ceb704247adb957915a9edaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Levels/LandTextures/PolygonNatureBiomes/PNB_Core/Textures/Noise_Big.tga using Guid(796e3706ceb704247adb957915a9edaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43584402d9517f52e7a6aebc9e9f1794') in 0.030539 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Game/Levels/LandTextures/PolygonNatureBiomes/PNB_Core/Textures/Noise_Mid.tga
+  artifactKey: Guid(95228cb87bc1fcf4b8b99b626dcf102c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Levels/LandTextures/PolygonNatureBiomes/PNB_Core/Textures/Noise_Mid.tga using Guid(95228cb87bc1fcf4b8b99b626dcf102c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b01827e4224223a6a344dc32a77f95e') in 0.012561 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 5.697923 seconds.
+  path: Assets/Game/Levels/LandTextures/PolygonNatureBiomes/PNB_Meadow_Forest/Models/SM_Env_Sunflower_01.fbx
+  artifactKey: Guid(fb9322e8d9afbfd4e866ced735c67405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Levels/LandTextures/PolygonNatureBiomes/PNB_Meadow_Forest/Models/SM_Env_Sunflower_01.fbx using Guid(fb9322e8d9afbfd4e866ced735c67405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef7763bd163aec601f0676837057b0a2') in 0.247457 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 20
+========================================================================
+Received Import Request.
+  Time since last request: 0.321156 seconds.
+  path: Assets/Game/Levels/LandTextures/PolygonNatureBiomes/PNB_Meadow_Forest/Prefabs/SM_Env_Sunflower_01.prefab
+  artifactKey: Guid(73663df767caaeb4e8d8a22389f6b41f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Levels/LandTextures/PolygonNatureBiomes/PNB_Meadow_Forest/Prefabs/SM_Env_Sunflower_01.prefab using Guid(73663df767caaeb4e8d8a22389f6b41f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17e9a68bb99f80c1e03c9b71c1674131') in 0.434640 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Game/Levels/LandTextures/PolygonNatureBiomes/PNB_Meadow_Forest/Prefabs/SM_Env_Wildflowers_03.prefab
+  artifactKey: Guid(f4c1ab01cce3344498755643a1be1e5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Levels/LandTextures/PolygonNatureBiomes/PNB_Meadow_Forest/Prefabs/SM_Env_Wildflowers_03.prefab using Guid(f4c1ab01cce3344498755643a1be1e5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1830a28aaf6ac38afde747c53c83ddc3') in 0.495714 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 29
+========================================================================
+Received Import Request.
+  Time since last request: 1.980874 seconds.
+  path: Assets/Game/Levels/LandTextures/PolygonNatureBiomes/PNB_Meadow_Forest/Materials/Plants/Grass_Tall_Mat_01.mat
+  artifactKey: Guid(c604503c60e932a4fb5924b662b82aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Levels/LandTextures/PolygonNatureBiomes/PNB_Meadow_Forest/Materials/Plants/Grass_Tall_Mat_01.mat using Guid(c604503c60e932a4fb5924b662b82aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '128da0cf69f20f695089776fa7bbb38e') in 0.033481 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 8
+========================================================================
+Received Import Request.
+  Time since last request: 54.748055 seconds.
+  path: Assets/Game/Levels/LandTexturesAndBrush/PNB_Meadow_Forest/Terrain/Concrete_Texture_01.png
+  artifactKey: Guid(af80d133ad1240e4fa4ff9277f2a2ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Levels/LandTexturesAndBrush/PNB_Meadow_Forest/Terrain/Concrete_Texture_01.png using Guid(af80d133ad1240e4fa4ff9277f2a2ed0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e42fa2f5b67616f3234e0e6241f3f11') in 0.018391 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.007341 seconds.
+  path: Assets/Game/Levels/LandTexturesAndBrush/PNB_Meadow_Forest/Terrain/Dirt_Cracked_Pebbles_Normals_01.png
+  artifactKey: Guid(727b812590bd3e94cb50befff44c5599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Levels/LandTexturesAndBrush/PNB_Meadow_Forest/Terrain/Dirt_Cracked_Pebbles_Normals_01.png using Guid(727b812590bd3e94cb50befff44c5599) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89604d358b6678fc149bb4cf0e4b1be1') in 0.024644 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Game/Levels/LandTexturesAndBrush/PNB_Meadow_Forest/Terrain/Dirt_Cracked_Leaves_Heavy_Normals_01.png
+  artifactKey: Guid(faf16dbda18e47740bf5b110d9a06c4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Levels/LandTexturesAndBrush/PNB_Meadow_Forest/Terrain/Dirt_Cracked_Leaves_Heavy_Normals_01.png using Guid(faf16dbda18e47740bf5b110d9a06c4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16a5d29e072943db0166bec24c0d2ef6') in 0.023054 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Game/Levels/LandTexturesAndBrush/PNB_Meadow_Forest/Terrain/Footpath_Tiles_Normals_01.png
+  artifactKey: Guid(0c0fd8ab9fe344e48ae6e8f66ec558bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Levels/LandTexturesAndBrush/PNB_Meadow_Forest/Terrain/Footpath_Tiles_Normals_01.png using Guid(0c0fd8ab9fe344e48ae6e8f66ec558bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '533c90c84436b84198b348859d59d905') in 0.017194 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Game/Levels/LandTexturesAndBrush/PNB_Meadow_Forest/Terrain/Grass_Texture_01.png
+  artifactKey: Guid(6064e4e3e79a3a1408ee2059beaa066b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Levels/LandTexturesAndBrush/PNB_Meadow_Forest/Terrain/Grass_Texture_01.png using Guid(6064e4e3e79a3a1408ee2059beaa066b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '255a0c6eefc0d2e825bbecc05739aee7') in 0.013662 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: 스레드 종료 또는 응용 프로그램 요청 때문에 I/O 작업이 취소되었습니다.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
