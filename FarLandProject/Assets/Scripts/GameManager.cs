@@ -21,12 +21,20 @@ public class GameManager : MonoBehaviour
     [HideInInspector]
     public GameObject PlayerObject = null;
 
-    //입력관련
-    private MainController MainController = null;
+    //메인카메라 위치저장
+    private Vector3 _MainCamaeraStartPosision;
 
-    private float HorizontalValue = 0f;
-    private float VertialValue = 0f;
-    private float MoveSpeed = 4.0f;
+
+    //실제 다루는 캐릭터 정보============================================================
+    private UnitSkill CurSkill = null;
+
+    void SetUnitSkill()
+    {
+        if(PlayerObject != null)
+        {
+            CurSkill = PlayerObject.GetComponent<UnitSkill>();
+        }
+    }
 
     private void Awake()
     {
@@ -38,8 +46,10 @@ public class GameManager : MonoBehaviour
         PlayerPrefab = Resources.Load<GameObject>("Prefabs/Beginner");
         PlayerObject = Instantiate(PlayerPrefab, PlayerStart.position, PlayerStart.rotation);
 
-        Camera.main.transform.parent = PlayerObject.transform;
-        Camera.main.transform.position += PlayerStart.position;
+        //Camera.main.transform.parent = PlayerObject.transform;
+        _MainCamaeraStartPosision = Camera.main.transform.position;
+
+        SetUnitSkill();
     }
 
     void Start()
@@ -47,13 +57,28 @@ public class GameManager : MonoBehaviour
 
     }
 
+    //스킬 관련 컨트롤
+    void KeyControl()
+    {
+        if (PlayerPrefab != null && CurSkill != null) 
+        {
+            //좌클릭시 스킬(공격)
+            if(Input.GetMouseButtonDown(0))
+            {
+                CurSkill.Skill();
+            }
+        }
+    }
+
+    void SetCameraPosition()
+    {
+        Camera.main.transform.position = _MainCamaeraStartPosision + PlayerObject.transform.position;
+    }
+
+    //업데이트 관리
     void Update()
     {
-        HorizontalValue = Input.GetAxis("Horizontal");
-        VertialValue = Input.GetAxis("Vertical");
-
-        Vector3 direction = new Vector3(HorizontalValue, 0.0f, VertialValue);
-
-        PlayerObject.transform.Translate(direction * MoveSpeed * Time.deltaTime);
+        KeyControl();
+        SetCameraPosition();
     }
 }

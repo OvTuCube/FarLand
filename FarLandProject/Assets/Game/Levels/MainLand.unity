@@ -122,7 +122,7 @@ NavMeshSettings:
     preserveTilesOutsideBounds: 0
     debug:
       m_Flags: 0
-  m_NavMeshData: {fileID: 0}
+  m_NavMeshData: {fileID: 23800000, guid: 1821557dc0bcb5843a42604d8f5c7ee3, type: 2}
 --- !u!1001 &15201207
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -135,6 +135,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_Env_Sunflower_01
+      objectReference: {fileID: 0}
+    - target: {fileID: 30244553050222735, guid: 73663df767caaeb4e8d8a22389f6b41f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 801820977783810613, guid: 73663df767caaeb4e8d8a22389f6b41f,
         type: 3}
@@ -191,6 +196,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1229533481561508673, guid: 73663df767caaeb4e8d8a22389f6b41f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4357628121474633420, guid: 73663df767caaeb4e8d8a22389f6b41f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8384022027701001013, guid: 73663df767caaeb4e8d8a22389f6b41f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -210,6 +230,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1263740216}
     m_Modifications:
+    - target: {fileID: 1390489373475438249, guid: f4c1ab01cce3344498755643a1be1e5a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3228458260756682995, guid: f4c1ab01cce3344498755643a1be1e5a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4833768574112450495, guid: f4c1ab01cce3344498755643a1be1e5a,
         type: 3}
       propertyPath: m_RootOrder
@@ -270,6 +300,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Wildflowers_03 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5214937767286086917, guid: f4c1ab01cce3344498755643a1be1e5a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7190243807045937801, guid: f4c1ab01cce3344498755643a1be1e5a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -287,7 +327,7 @@ GameObject:
   - component: {fileID: 67403837}
   - component: {fileID: 67403836}
   - component: {fileID: 67403839}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Terrain
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -486,6 +526,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Grass_Tall_Clump_04_1 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 1583811397360488284, guid: ad4266017d60f904c9024d082d378839,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2211554112688051686, guid: ad4266017d60f904c9024d082d378839,
         type: 3}
       propertyPath: m_RootOrder
@@ -539,6 +584,21 @@ PrefabInstance:
     - target: {fileID: 2211554112688051686, guid: ad4266017d60f904c9024d082d378839,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3009620695583441331, guid: ad4266017d60f904c9024d082d378839,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4480619365829804320, guid: ad4266017d60f904c9024d082d378839,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7799091198088544522, guid: ad4266017d60f904c9024d082d378839,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -684,6 +744,16 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.y
       value: -109.946
       objectReference: {fileID: 0}
+    - target: {fileID: 1390489373475438249, guid: f4c1ab01cce3344498755643a1be1e5a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3228458260756682995, guid: f4c1ab01cce3344498755643a1be1e5a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4833768574112450495, guid: f4c1ab01cce3344498755643a1be1e5a,
         type: 3}
       propertyPath: m_RootOrder
@@ -744,6 +814,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Wildflowers_03_1 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 5214937767286086917, guid: f4c1ab01cce3344498755643a1be1e5a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7190243807045937801, guid: f4c1ab01cce3344498755643a1be1e5a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -792,6 +872,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_Env_Sunflower_01 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 30244553050222735, guid: 73663df767caaeb4e8d8a22389f6b41f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 801820977783810613, guid: 73663df767caaeb4e8d8a22389f6b41f,
         type: 3}
@@ -848,6 +933,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1229533481561508673, guid: 73663df767caaeb4e8d8a22389f6b41f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4357628121474633420, guid: 73663df767caaeb4e8d8a22389f6b41f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8384022027701001013, guid: 73663df767caaeb4e8d8a22389f6b41f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -865,6 +965,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_Env_Grass_Tall_Clump_04 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1583811397360488284, guid: ad4266017d60f904c9024d082d378839,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2211554112688051686, guid: ad4266017d60f904c9024d082d378839,
         type: 3}
@@ -921,6 +1026,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3009620695583441331, guid: ad4266017d60f904c9024d082d378839,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4480619365829804320, guid: ad4266017d60f904c9024d082d378839,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7799091198088544522, guid: ad4266017d60f904c9024d082d378839,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -944,6 +1064,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_Env_Grass_Tall_Clump_04_1 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1583811397360488284, guid: ad4266017d60f904c9024d082d378839,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2211554112688051686, guid: ad4266017d60f904c9024d082d378839,
         type: 3}
@@ -1000,6 +1125,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3009620695583441331, guid: ad4266017d60f904c9024d082d378839,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4480619365829804320, guid: ad4266017d60f904c9024d082d378839,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7799091198088544522, guid: ad4266017d60f904c9024d082d378839,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1029,6 +1169,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_Env_Grass_Tall_Clump_04 (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1583811397360488284, guid: ad4266017d60f904c9024d082d378839,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2211554112688051686, guid: ad4266017d60f904c9024d082d378839,
         type: 3}
@@ -1085,6 +1230,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3009620695583441331, guid: ad4266017d60f904c9024d082d378839,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4480619365829804320, guid: ad4266017d60f904c9024d082d378839,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7799091198088544522, guid: ad4266017d60f904c9024d082d378839,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1108,6 +1268,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_Env_Grass_Tall_Clump_04_1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1583811397360488284, guid: ad4266017d60f904c9024d082d378839,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2211554112688051686, guid: ad4266017d60f904c9024d082d378839,
         type: 3}
@@ -1164,6 +1329,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3009620695583441331, guid: ad4266017d60f904c9024d082d378839,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4480619365829804320, guid: ad4266017d60f904c9024d082d378839,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7799091198088544522, guid: ad4266017d60f904c9024d082d378839,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1212,6 +1392,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
       value: -109.946
+      objectReference: {fileID: 0}
+    - target: {fileID: 1390489373475438249, guid: f4c1ab01cce3344498755643a1be1e5a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3228458260756682995, guid: f4c1ab01cce3344498755643a1be1e5a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4833768574112450495, guid: f4c1ab01cce3344498755643a1be1e5a,
         type: 3}
@@ -1272,6 +1462,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_Env_Wildflowers_03_1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5214937767286086917, guid: f4c1ab01cce3344498755643a1be1e5a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7190243807045937801, guid: f4c1ab01cce3344498755643a1be1e5a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1350,6 +1550,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Sunflower_01 (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 30244553050222735, guid: 73663df767caaeb4e8d8a22389f6b41f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 801820977783810613, guid: 73663df767caaeb4e8d8a22389f6b41f,
         type: 3}
       propertyPath: m_RootOrder
@@ -1405,6 +1610,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1229533481561508673, guid: 73663df767caaeb4e8d8a22389f6b41f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4357628121474633420, guid: 73663df767caaeb4e8d8a22389f6b41f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8384022027701001013, guid: 73663df767caaeb4e8d8a22389f6b41f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1422,6 +1642,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_Env_Grass_Tall_Clump_04 (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1583811397360488284, guid: ad4266017d60f904c9024d082d378839,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2211554112688051686, guid: ad4266017d60f904c9024d082d378839,
         type: 3}
@@ -1478,6 +1703,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 3009620695583441331, guid: ad4266017d60f904c9024d082d378839,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4480619365829804320, guid: ad4266017d60f904c9024d082d378839,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7799091198088544522, guid: ad4266017d60f904c9024d082d378839,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1507,6 +1747,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_Env_Grass_Tall_Clump_04
+      objectReference: {fileID: 0}
+    - target: {fileID: 1583811397360488284, guid: ad4266017d60f904c9024d082d378839,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2211554112688051686, guid: ad4266017d60f904c9024d082d378839,
         type: 3}
@@ -1561,6 +1806,21 @@ PrefabInstance:
     - target: {fileID: 2211554112688051686, guid: ad4266017d60f904c9024d082d378839,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3009620695583441331, guid: ad4266017d60f904c9024d082d378839,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4480619365829804320, guid: ad4266017d60f904c9024d082d378839,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7799091198088544522, guid: ad4266017d60f904c9024d082d378839,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
@@ -1624,6 +1884,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Sunflower_01 (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 30244553050222735, guid: 73663df767caaeb4e8d8a22389f6b41f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 801820977783810613, guid: 73663df767caaeb4e8d8a22389f6b41f,
         type: 3}
       propertyPath: m_RootOrder
@@ -1679,6 +1944,21 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1229533481561508673, guid: 73663df767caaeb4e8d8a22389f6b41f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4357628121474633420, guid: 73663df767caaeb4e8d8a22389f6b41f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8384022027701001013, guid: 73663df767caaeb4e8d8a22389f6b41f,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1692,6 +1972,16 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1263740216}
     m_Modifications:
+    - target: {fileID: 1390489373475438249, guid: f4c1ab01cce3344498755643a1be1e5a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3228458260756682995, guid: f4c1ab01cce3344498755643a1be1e5a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 4833768574112450495, guid: f4c1ab01cce3344498755643a1be1e5a,
         type: 3}
       propertyPath: m_RootOrder
@@ -1752,6 +2042,16 @@ PrefabInstance:
       propertyPath: m_Name
       value: SM_Env_Wildflowers_03
       objectReference: {fileID: 0}
+    - target: {fileID: 5214937767286086917, guid: f4c1ab01cce3344498755643a1be1e5a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7190243807045937801, guid: f4c1ab01cce3344498755643a1be1e5a,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1781,6 +2081,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: SM_Env_Grass_Tall_Clump_04_1 (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1583811397360488284, guid: ad4266017d60f904c9024d082d378839,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2211554112688051686, guid: ad4266017d60f904c9024d082d378839,
         type: 3}
@@ -1835,6 +2140,21 @@ PrefabInstance:
     - target: {fileID: 2211554112688051686, guid: ad4266017d60f904c9024d082d378839,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3009620695583441331, guid: ad4266017d60f904c9024d082d378839,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4480619365829804320, guid: ad4266017d60f904c9024d082d378839,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7799091198088544522, guid: ad4266017d60f904c9024d082d378839,
+        type: 3}
+      propertyPath: m_StaticEditorFlags
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
